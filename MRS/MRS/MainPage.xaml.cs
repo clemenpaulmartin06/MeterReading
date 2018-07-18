@@ -62,6 +62,7 @@ namespace MRS
                 var vm = BindingContext as ReadingListViewModel;
                 var item = e.SelectedItem as ReadingList;
                 header.BackgroundColor = Color.FromHex(item.BackgroundColor);
+                bottom.BackgroundColor = Color.FromHex(item.BackgroundColor);
                 //this.DisplayAlert("Event fired", "SelectedIndex:" + "\t" + selectedIndex + "\n" + "SelectedItem:" + "\t" + item.Name, "Done");
             };
 

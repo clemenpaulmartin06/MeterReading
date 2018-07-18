@@ -2204,8 +2204,26 @@ namespace MRS.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+			// aapt resource value: 0x7f020156
+			public const int avd_hide_password_1 = 2130837846;
+			
+			// aapt resource value: 0x7f020157
+			public const int avd_hide_password_2 = 2130837847;
+			
+			// aapt resource value: 0x7f020158
+			public const int avd_hide_password_3 = 2130837848;
+			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
+			
+			// aapt resource value: 0x7f020159
+			public const int avd_show_password_1 = 2130837849;
+			
+			// aapt resource value: 0x7f02015a
+			public const int avd_show_password_2 = 2130837850;
+			
+			// aapt resource value: 0x7f02015b
+			public const int avd_show_password_3 = 2130837851;
 			
 			// aapt resource value: 0x7f020055
 			public const int background = 2130837589;
