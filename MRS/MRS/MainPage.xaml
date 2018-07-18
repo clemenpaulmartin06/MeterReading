@@ -423,31 +423,67 @@
 
                     <Grid Grid.Row="0"  RowSpacing="0" ColumnSpacing="0">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="70" />
+                            <RowDefinition Height="60" />
+                            <RowDefinition Height="15" />
                         </Grid.RowDefinitions>
 
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="70" />
-                            <ColumnDefinition Width="70" />
-                            <ColumnDefinition Width="70" />
-                            <ColumnDefinition Width="70" />
-                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="20*" />
+                            <ColumnDefinition Width="20*" />
+                            <ColumnDefinition Width="20*" />
+                            <ColumnDefinition Width="20*" />
+                            <ColumnDefinition Width="20*" />
                         </Grid.ColumnDefinitions>
 
-                        <Button Grid.Column="0" Grid.Row="0" Clicked="OnShowMenu" Image="baseline_fast_rewind_black_24.png"
+                        <Button Grid.Column="0" Grid.Row="0" Clicked="MoveToFirst" Image="baseline_fast_rewind_black_24.png"
                             CornerRadius="0" BackgroundColor="Transparent" />
 
+                        <Label  Grid.Column="0" Grid.Row="1"  Text="FIRST" 
+                                                   HorizontalTextAlignment="Center" 
+                                                   VerticalTextAlignment="Start"                                                 
+                                                   FontSize="Micro"
+                                                    TextColor="White"                                
+                                                   VerticalOptions="Center"  />
+                        
                         <Button Grid.Column="1" Grid.Row="0" Clicked="OnShowMenu" Image="baseline_print_black_24.png"
                             CornerRadius="0" BackgroundColor="Transparent" />
+                        
+                        <Label  Grid.Column="1" Grid.Row="1"  Text="PRINT" 
+                                                   HorizontalTextAlignment="Center" 
+                                                   VerticalTextAlignment="Start"                                                
+                                                   FontSize="Micro"
+                                                    TextColor="White"                                
+                                                   VerticalOptions="Center"  />
 
                         <Button Grid.Column="2" Grid.Row="0" Clicked="OnShowMenu" Image="baseline_details_black_24.png"
                             CornerRadius="0" BackgroundColor="Transparent" />
+                        
+                        <Label  Grid.Column="2" Grid.Row="1"  Text="AVERAGE" 
+                                                   HorizontalTextAlignment="Center" 
+                                                   VerticalTextAlignment="Start"                                                 
+                                                   FontSize="Micro"
+                                                    TextColor="White"                                
+                                                   VerticalOptions="Center"  />
 
                         <Button Grid.Column="3" Grid.Row="0" Clicked="OnShowMenu" Image="baseline_clear_all_black_24.png"
                             CornerRadius="0" BackgroundColor="Transparent" />
+                        
+                        <Label  Grid.Column="3" Grid.Row="1"  Text="CLEAR" 
+                                                   HorizontalTextAlignment="Center" 
+                                                   VerticalTextAlignment="Start"                                                
+                                                   FontSize="Micro"
+                                                    TextColor="White"
+                                                   VerticalOptions="Center"  />
 
-                        <Button Grid.Column="4" Grid.Row="0" Clicked="OnShowMenu" Image="baseline_fast_forward_black_24.png"
+                        <Button Grid.Column="4" Grid.Row="0" Clicked="MoveToLast" Image="baseline_fast_forward_black_24.png"
                             CornerRadius="0" BackgroundColor="Transparent" />
+                        
+                        <Label  Grid.Column="4" Grid.Row="1"  Text="LAST" 
+                                                   HorizontalTextAlignment="Center" 
+                                                   VerticalTextAlignment="Start"                                                    
+                                                   FontSize="Micro"
+                                                   TextColor="White"
+                                                   VerticalOptions="Center"  />
 
                         <!--<Label Grid.Column="1" Grid.Row="0" FontSize="Medium"
                            Text="Reading List" TextColor="{StaticResource TitleTextColor}"

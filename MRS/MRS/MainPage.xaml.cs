@@ -169,5 +169,14 @@ namespace MRS
             return animation;
         }
 
+        private void MoveToFirst(object sender, EventArgs e)
+        {
+            MainCarouselView.Position = 0;
+        }
+
+        private void MoveToLast(object sender, EventArgs e)
+        {
+            MainCarouselView.Position = 2;
+        }
     }
 }
